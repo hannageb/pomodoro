@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="text">
+    <script src="script.js"></script>
+    <div class="container">
       <h1>Tamatim 🍅 Timer</h1>
-      <p>Welcome to your Electron application.</p>
-      <button id="start">Start</button>
+      <p id="timer">25:00</p>
+      <button id="start" onclick="startTimer()">Start</button>
+      <button id="pause" onclick="pauseTimer()">||</button>
+      <button id="reset" onclick="resetTimer()">Reset</button>
     </div>
   </body>
 </html>

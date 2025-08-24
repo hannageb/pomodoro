@@ -5,12 +5,29 @@ body {
   padding: 2rem;
   background-color: rgb(143, 36, 36);
 }
-.text{
-  background-color: whitesmoke;
+
+.container{
   border-radius: 10%;
   padding: 5%;
+  background:rgb(241, 210, 210);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#timer{
+  font-size: 50px;
+}
+
+button {
+  border: none;
+  font-family: monospace;
+  background-color: rgb(241, 210, 210);
+  border-radius: 10%;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(201, 174, 174);
 }
